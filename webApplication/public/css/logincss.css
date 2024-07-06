@@ -1,0 +1,102 @@
+body{
+margin: 0;
+padding: 0;
+min-height: 100vh;
+color: rgb(212, 36, 36);
+background: url('../img/Picture1.png') repeat fixed 100%;
+}
+
+.login{
+/* position: absolute; */
+margin: auto;
+margin-top: 100px;
+width: 350px;
+height: 500px;
+border: 5px solid rgb(146, 136, 136);
+border-radius: 10px;
+background-color: rgba(202, 238, 224, 0.5);
+
+/* transition: 0.5s ease; */
+padding: 40px ;
+}
+.login:hover{
+box-shadow: 3px 3px 50px rgb(82, 165, 130);
+}
+
+.icon{
+width: 150px;
+height: 150px;
+text-align: center;
+margin-left: 100px;
+}
+
+h2{
+font-size: 50px;
+font-weight: bold;
+letter-spacing: 2px;
+text-align: center;
+margin: 0;
+color:rgb(22, 22, 24);
+}
+
+.input-text{
+position: relative;
+margin: 20px 0;
+}
+
+.input-text input{
+width: 100%;
+padding: 10px 0;
+box-sizing: border-box;
+font-size: 16px;
+border: none;
+padding-left: 30px;
+border-bottom: 2px solid #97cddd;
+}
+
+.input-text input:focus{
+border-radius: 30px;
+border: 1px;
+}
+
+.btn{
+width: 100%;
+font-size: 16px;
+font-weight: bold;
+border-radius: 15px;
+padding: 5px;
+/* background: none; */
+cursor: pointer;
+transition: 0.5s ease;
+}
+.regist{
+color: black;
+}
+
+.btn:hover{
+background: rgb(84, 202, 147);
+color: rgb(210, 242, 243);
+}
+
+.remember{
+margin-top: 45px;
+color: rgb(101, 105, 105);
+}
+
+a {
+float: right;
+}
+
+.form-element {
+position:relative;
+}
+#form #error {
+    color: rgb(221, 13, 41);
+    text-align: center;
+        /* animation-name: popupError;
+        animation-duration: 3s;
+        animation-iteration-count: 1;
+        animation-timing-function: all 1s;
+        opacity: 0; */
+    }
+    
